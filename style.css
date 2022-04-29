@@ -9,6 +9,12 @@ h1{
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 110%;
+}
+
+header a{
+    text-decoration: none;
+    color: antiquewhite ;
 }
 
 
@@ -29,7 +35,7 @@ body{
     font-size: 20px;
     color: rgb(70, 32, 40);
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: antiquewhite;
 }
 
 a.logo{
@@ -38,7 +44,7 @@ a.logo{
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 24px;
-    color:rgb(157, 0, 172);
+    color:antiquewhite;
 }
 
 header{
@@ -46,10 +52,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
+    color:aliceblue;
+    background-color: brown;
 }
 
 header ul{
     display: flex;
+    gap: 32px;
+}
+
+.hero-column-left button{
+    background-color: purple;
+    color: antiquewhite;
 }
 
 ul li{
@@ -58,8 +72,8 @@ ul li{
 
 .hero{
     display: flex;
-    height: 600px;
-    padding: 32px;
+    height: 720px;
+    padding: 32px 16%;
     align-items: center;
 }
 
@@ -67,4 +81,43 @@ ul li{
     width: 50%;
 }
 
-.hero-column
+.hero-column-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-column-left button{
+    padding: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.hero-column-left{
+    padding-right: 128px;
+}
+
+
+.hero-column-right img{
+    max-height: 650px;
+}
+
+.features{
+    height: 700px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-container{
+    display: flex;
+    gap: 64px;
+    padding: 64px;
+}
+
+.features .feature-item img{
+    width: 256px;
+}
